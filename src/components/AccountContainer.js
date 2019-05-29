@@ -32,7 +32,7 @@ state = {
     return (
       <div>
         <Search />
-        <TransactionsList transactions={this.fetchTransactions()}/>
+        <TransactionsList transactions={this.state.transactions}/>
       </div>
     )
   }
